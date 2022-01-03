@@ -1,0 +1,13 @@
+@charset "utf-8";
+.sonar-about-us-area.bg-img .container-fluid .row .col-12.col-md-10.col-lg-7 .about-us-content.bg-white .section-heading.text-left.wow.fadeInUp p {
+	margin-bottom: -40px;
+}
+.btn{
+	padding-top:20px;
+	}
+.hero-area.d-flex.align-items-center .hero-content.aboutUs.equalize .container-fluid.h-100 .row.h-100.align-items-center.justify-content-center .col-12.col-md-10 .btn.sonar-btn.white-btn {
+	margin-left: 20px;
+}
+#experience .container .col-md-12 .size-50 {
+	margin-bottom: 20px;
+}
