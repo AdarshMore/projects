@@ -48,22 +48,22 @@
             <i class="ti-close" aria-hidden="true"></i>
         </div>
         <!-- Logo Area -->
-         <div class="logo-area">
+        <div class="logo-area">
             <a href="about-me.html"><img src="img/logo-01.png"></a>
         </div>
         <!-- Nav -->
         <div class="sonarNav">
             <nav>
                 <ul>
-                   
+
                     <li class="nav-item active">
                         <a class="nav-link" href="about-me.html">About Me</a>
                     </li>
-                     <li class="nav-item ">
+                    <li class="nav-item ">
                         <a class="nav-link" href="websites.html">Websites</a>
                     </li>
-                    
-                   <!-- <li class="nav-item">
+
+                    <!-- <li class="nav-item">
                         <a class="nav-link" href="services.html">Services</a>
                     </li>-->;
                     <li class="nav-item">
@@ -75,7 +75,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
-                   <!-- <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link" href="elements.html">Elements</a>
                     </li>-->
                 </ul>
@@ -83,8 +83,8 @@
             </nav>
         </div>
         <!-- Copwrite Text -->
-        
-</div>
+
+    </div>
     <!-- ***** Main Menu Area End ***** -->
 
     <!-- ***** Header Area Start ***** -->
@@ -94,13 +94,13 @@
                 <div class="col-12">
                     <div class="menu-area d-flex justify-content-between">
                         <!-- Logo Area  -->
-                         <div class="logo-area">
-           						 <a href="about-me.html"<img src="img/logo.png"></a>
-        				</div>
+                        <div class="logo-area">
+                            <a href="about-me.html" <img src="img/logo.png"></a>
+                        </div>
 
                         <div class="menu-content-area d-flex align-items-center">
                             <!-- Header Social Area -->
-                           <!-- <div class="header-social-area d-flex align-items-center">
+                            <!-- <div class="header-social-area d-flex align-items-center">
                                 <a href="#" data-toggle="tooltip" data-placement="bottom" title="Pinterest"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
                                 <a href="#" data-toggle="tooltip" data-placement="bottom" title="Linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                                 <a href="#" data-toggle="tooltip" data-placement="bottom" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
@@ -119,21 +119,21 @@
 
     <!-- ***** Hero Area Start ***** -->
     <div class="hero-area d-flex align-items-center">
-       
+
         <!-- Hero Thumbnail -->
         <div class="hero-thumbnail equalize bg-img" style="background-image: url(img/bg-img/contact.jpg);"></div>
-        
+
         <!-- Hero Content -->
         <div class="hero-content equalize">
             <div class="container-fluid h-100">
                 <div class="row h-100 align-items-center justify-content-center">
                     <div class="col-12 col-md-8">
-                        
+
                         <h2>Contact me</h2>
-							<div class="line"></div>
-                         <p> Contact No. : +91 853 014 9414</p>
+                        <div class="line"></div>
+                        <p> Contact No. : +91 853 014 9414</p>
                         <p> Mail ID : adarshmore888@gmail.com</p>
-                          <p> Address : Jategaon bk., Shikrapur, Pune-412208</p>
+                        <p> Address : Jategaon bk., Shikrapur, Pune-412208</p>
                         <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui.</p>-->
                         <!--<a href="contact.html" class="btn sonar-btn white-btn">contact me</a>-->
                     </div>
@@ -143,61 +143,109 @@
     </div>
     <!-- ***** Hero Area End ***** -->
 
-   <div class="wrapper">
-  <h2>Contact us</h2>
-  <div id="error_message">
-     
-  </div>
-  <form action="" id="myform" onsubmit = "return validate();">
-    <div class="input_field">
-        <input type="text" placeholder="Name" id="name">
-    </div>
-    <div class="input_field">
-        <input type="text" placeholder="Subject" id="subject">
-    </div>
-    <div class="input_field">
-        <input type="text" placeholder="Phone" id="phone">
-    </div>
-    <div class="input_field">
-        <input type="text" placeholder="Email" id="email">
-    </div>
-    <div class="input_field">
-        <textarea placeholder="Message" id="message"></textarea>
-    </div>
-    <div class="btn">
-        <input type="submit">
-    </div>
-  </form>
-</div>
+    <div class="wrapper">
+        <h2>Contact us</h2>
+        <div id="error_message">
 
-    <!-- Google Maps -->
-    <div class="map-area">
-        <div id="" class=""><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30229.01252357861!2d74.09767042667042!3d18.72552978064311!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2d0d02b331473%3A0x63813cbaeaaaf776!2sJategaon+Bk.%2C+Maharashtra+412208!5e0!3m2!1sen!2sin!4v1551002321832" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> </div>
-    </div>
-
-    <!-- ***** Footer Area Start ***** -->
-    <footer class="footer-area">
-        <!-- back end content -->
-        <div class="backEnd-content">
-            <img class="dots" src="img/core-img/dots.png" alt="">
-            <h2>Dream</h2>
         </div>
-    </footer>
-    <!-- ***** Footer Area End ***** -->
+        <div class="contact-form" style="max-width: 450px; margin: 0 auto;">
+            <div class="form-mid">
+                <form action="javascript:sendmail()" method="post">
+                    <div class="field">
+                        <input type="text" class="form-control" name="Name" id="Name" placeholder="Name" required="">
+                    </div>
+                    <div class="field">
+                        <input type="email" class="form-control" name="Sender" id="Sender" placeholder="Email"
+                            required="">
+                    </div>
+                    <div class="field">
+                        <input type="text" class="form-control" name="Subject" id="Subject" placeholder="Subject"
+                            required="">
+                    </div>
+                    <textarea name="Message" class="form-control" id="Message" placeholder="Message"
+                        required=""></textarea>
+                    <button type="submit" class="btn btn-contact">Send Message</button>
+                    <!-- <input type="button" class="btn btn-contact" onclick="sendmail();"  value="Send Message"> -->
 
-    <!-- jQuery (Necessary for All JavaScript Plugins) -->
-    <script src="js/jquery/jquery-2.2.4.min.js"></script>
-    <!-- Popper js -->
-    <script src="js/popper.min.js"></script>
-    <!-- Bootstrap js -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- Plugins js -->
-    <script src="js/plugins.js"></script>
-    <!-- Active js -->
-    <script src="js/active.js"></script>
-    <!-- Google Maps -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwuyLRa1uKNtbgx6xAJVmWy-zADgegA2s"></script>
-    <script src="js/map-active.js"></script>
+                </form>
+
+                <!-- Google Maps -->
+                <div class="map-area">
+                    <div id="" class=""><iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30229.01252357861!2d74.09767042667042!3d18.72552978064311!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2d0d02b331473%3A0x63813cbaeaaaf776!2sJategaon+Bk.%2C+Maharashtra+412208!5e0!3m2!1sen!2sin!4v1551002321832"
+                            width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> </div>
+                </div>
+                <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
+                <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+                    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+                <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+                <script>
+
+                    function sendmail() {
+
+                        var name = $('#Name').val();
+                        var email = $('#Sender').val();
+                        var subject = $('#Subject').val();
+                        var message = $('#Message').val();
+
+                        // var body = $('#body').val();
+
+                        var Body = 'Name: ' + name + '<br>Email: ' + email + '<br>Subject: ' + subject + '<br>Message: ' + message;
+                        //console.log(name, phone, email, message);
+
+                        Email.send({
+                            SecureToken: "fbf31702-bb7f-4a4e-9c1c-4ccf17ee777f",
+                            To: 'adarshmore888@gmail.com',
+                            From: "demooptimalweb@gmail.com",
+                            Subject: "New message on contact from " + name,
+                            Body: Body
+                        }).then(
+                            message => {
+                                //console.log (message);
+                                if (message == 'OK') {
+                                    alert('Your mail has been send. Thank you for connecting.');
+                                }
+                                else {
+                                    console.error(message);
+                                    alert('There is error at sending message. ')
+
+                                }
+
+                            }
+                        );
+
+
+
+                    }
+
+
+                </script>
+                </script>
+                <!-- ***** Footer Area Start ***** -->
+                <footer class="footer-area">
+                    <!-- back end content -->
+                    <div class="backEnd-content">
+                        <img class="dots" src="img/core-img/dots.png" alt="">
+                        <h2>Dream</h2>
+                    </div>
+                </footer>
+                <!-- ***** Footer Area End ***** -->
+
+                <!-- jQuery (Necessary for All JavaScript Plugins) -->
+                <script src="js/jquery/jquery-2.2.4.min.js"></script>
+                <!-- Popper js -->
+                <script src="js/popper.min.js"></script>
+                <!-- Bootstrap js -->
+                <script src="js/bootstrap.min.js"></script>
+                <!-- Plugins js -->
+                <script src="js/plugins.js"></script>
+                <!-- Active js -->
+                <script src="js/active.js"></script>
+                <!-- Google Maps -->
+                <script
+                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwuyLRa1uKNtbgx6xAJVmWy-zADgegA2s"></script>
+                <script src="js/map-active.js"></script>
 
 </body>
 
